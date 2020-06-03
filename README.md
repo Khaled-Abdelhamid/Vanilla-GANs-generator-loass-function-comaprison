@@ -23,26 +23,22 @@ Generator loss results comparison
 ---------------------------------
 
 ![Discriminator loss for $J^{(G)}=-J^{(D)}$ after 70 epochs of
-training.Final loss value is $1.16$.](imgs/DGAN_a.png){#fig:dgana
-width="1\\linewidth"}
+training.Final loss value is $1.16$.](imgs/DGAN_a.png)
 
 ![Discriminator loss for
 $J^{(G)}=-\frac{1}{2} \mathbb{E}_{z} \log (D(G(z)))$ after 70 epochs of
-training.Final loss value is $1.247$.](imgs/DGAN_b.png){#fig:dganb
-width="1\\linewidth"}
+training.Final loss value is $1.247$.](imgs/DGAN_b.png)
 
  Discriminator loss for $J^{(G)}=-\frac{1}{2} \mathbb{E}_{z} \log (D(G(z)))$ after 70 epochs of training. Final loss value is $1.247$.
 
 ![Generator loss for $J^{(example5.assets/GGAN_a.png)}=-J^{(D)}$ after 70 epochs of
-training.Final loss value is $1.972$.](imgs/GGAN_a.png){#fig:ggana
-width="1\\linewidth"}
+training.Final loss value is $1.972$.](imgs/GGAN_a.png)
 
  Generator loss for $J^{(G)}=-J^{(D)}$ after 70 epochs of training. Final loss value is $1.972$.
 
 ![Generator loss for
 $J^{(example5.assets/GGAN_b.png)}=-\frac{1}{2} \mathbb{E}_{z} \log (D(G(z)))$ after 70 epochs of
-training.Final loss value is $0.815$.](imgs/GGAN_b.png){#fig:gganb
-width="1\\linewidth"}
+training.Final loss value is $0.815$.](imgs/GGAN_b.png)
 
 Generator loss for $J^{(G)}=-\frac{1}{2} \mathbb{E}_{z} \log (D(G(z)))$ after 70 epochs of training. Final loss value is $0.815$.
 
@@ -51,15 +47,13 @@ $J^{(G)}=-\frac{1}{2} \mathbb{E}_{z} \log (D(G(z)))$ does not only reduce the ge
 
 ![The output of GANs network after 71 epochs with the generator loss
 function
-$J^{(G)}=-J^{(D)}$.](imgs/hori_epoch_71_a.png){#fig:horiepoch71a
-width="0.7\\linewidth"}
+$J^{(G)}=-J^{(D)}$.](imgs/hori_epoch_71_a.png)
 
 The output of GANs network after 71 epochs with the generator loss function $J^{(G)}=-J^{(D)}$.
 
 ![The output of GANs network after 71 epochs with the generator loss
 function
-$J^{(G)}=-\frac{1}{2} \mathbb{E}_{z} \log (D(G(z)))$.](imgs/hori_epoch_71_b.png){#fig:horiepoch71b
-width="0.7\\linewidth"}
+$J^{(G)}=-\frac{1}{2} \mathbb{E}_{z} \log (D(G(z)))$.](imgs/hori_epoch_71_b.png)
 
 The previous two figures shows that when $J^{(G)}=-\frac{1}{2} \mathbb{E}_{z} \log (D(G(z)))$, the results are better as the 
 model converges faster.
